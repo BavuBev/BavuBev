@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bavuyise Songwangwa-Portfolio</title>
+    <style type="text/css">
+      .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;}
+  
+    .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;}
+  
+    .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+  #header{
+  width: 100%;
+  height: 100vh;
+  background-image: url("Images/2196475.jpg");
+  background-size: cover ;
+  background-position:center;
+}
+.contaner{
+  padding: 10px 10%;
+}
+nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: right;
+}
+.logo{
+  width: 149px;
+}
+nav ul lI{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  color: #fff ;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position:absolute ;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li :hover::after{
+  width: 100%;
+}
+        </style>
+</head>
+
+ 
+  <body>
+    <body style = "background-color: rgb(228, 87, 115);">
+  <div class="container">
+    <img src="AKKD.jpg" alt="Avatar" style="width:90px">
+    <p><span >Alexander Doyi</span> Classmate.</p>
+    <p>Bavuyise is very friendly , accomodating and welcoming. </p>
+  </div>
+  <div class="container">
+    <img src="mpinga.jpg" alt="Avatar" style="width:90px">
+    <p><span>Mqondisi Sokomela.</span>Classmate.</p>
+    <p>Bavuyise is my friend we met back in 2019 , and we started to gravitate torwards each other <br>
+       She is also a good study partner. .</p>
+  </div>
+  
+  <div class="container">
+    <img src="prof.jpg" alt="Avatar" style="width:90px">
+    <p><span >Prof. SE Eyono Obono</span> Lecturer.</p>
+    <p>Bavuyise is a sweet and a dedicated Student.</p>
+  </div>
+  <nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item"><a href="C:\Users\bsongwangwa\Desktop\MyWork\index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="C:\Users\bsongwangwa\Desktop\MyWork\About.html" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="C:\Users\bsongwangwa\Desktop\MyWork\WorkandEducation.html" class="nav__link">Work and Education</a></li>
+        <li class="nav__item"><a href="C:\Users\bsongwangwa\Desktop\MyWork\Testimonial.html" class="nav__link">Testimonial</a></li>
+        <li class="nav__item"><a href="C:\Users\bsongwangwa\Desktop\MyWork\Contact.html" class="nav__link">Contact</a></li>
+    </ul>
+</nav>
+</body>
+</html>
